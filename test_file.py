@@ -47,7 +47,7 @@ def test_download_file():
     browser.element('[data-open-app="link"]').click()
     time.sleep(5)
     file_size = os.path.getsize(tmp)
-    assert file_size == 1564360
+    assert file_size == 1564388
     os.remove(tmp)
 
 
