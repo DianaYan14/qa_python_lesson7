@@ -4,3 +4,4 @@ selene==2.0.0rc2
 xlrd
 openpyxl
 pypdf
+selenium
